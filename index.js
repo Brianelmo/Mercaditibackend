@@ -18,7 +18,7 @@ app.get('/bot/options/:id', botControl)
 
 app.get('/bot/question', questions);
 
-app.listen(8080, () => {
+app.listen(3306, () => {
     console.log('ao vivo desde puerto 8080')
 })
 
